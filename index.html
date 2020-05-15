@@ -1,0 +1,49 @@
+<!Doctype html>
+<html>
+    <title>Corona Warrior Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>CORONA WARRIOR FORM </h1>
+    <head> 
+          <link rel="stylesheet" href="styles.css">
+    </head>
+    
+       <form>
+           <label for="username"><b>Enter UserName:</label>
+           <input type="text" id="username" name="username" placeholder="Enter Your name">
+           <br></br>
+           <label for="email">Enter Email ID: </label>
+           <input type="email" id="email" name="email" placeholder="Enter Your email-id ">
+           <br></br>
+           <label for="password">Enter Password:</label>
+           <input type="password" id="password" name="password" placeholder="Enter Your password">
+          
+           <p><h2>Select Your Age:</h2></p>
+           <input type="radio" name ="age" value="0-25" id="option-1">
+           <label for="option-1">0-25</label>
+           
+           <input type="radio" name ="age" value="25-50" id="option-2">
+           <label for="option-2">25-60</label>
+           
+           <input type="radio" name ="age" value="51+" id="option-3">
+           <label for="option-3">61+</label>
+           
+            <label for="question"><h2>Security Questions ?</h2></label>
+           <select name="question" id ="question">
+           <option value="q1">What is Your favt. Food?</option>
+           <option value="q2">What is Your Greek God name?</option>
+           <option value="q3">What is Your Pet Name?</option>
+        </select>
+           
+            <label for="answer"><h2>Answer Security Question:</h2></label>
+           <input type="answer" id="answer" name="answer" placeholder="answer security questions? ">
+       
+           <br></br>
+           <label for="bio">Tell us Something About Yourself: </label><br>
+           <textarea name="bio" id="bio" cols="30" rows="10" placeholder="About You ..."></textarea>
+           <br></br>
+           <input type="submit"> </input>
+       </form>
+       <br></br>
+       <a href="about.html">Know about US</a>
+       <a href="mario.html">Mario</a>
+</html>
